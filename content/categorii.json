@@ -1,29 +1,26 @@
 {
   "lista": [
     {
-      "nume": "Invitații și papetărie",
-      "scurt": "Invitații",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Invitații, plicuri de bani, meniuri și plăcuțe cu nume.",
-      "de_la": "de la 9 lei / buc",
-      "intro": "Invitații tipărite pe hârtie texturată, cu plic, sigiliu de ceară sau panglică. Restul papetăriei, de la meniuri la planul de așezare, urmează același design.",
-      "desen": "invitatii",
-      "culoare": "#E8EEF4",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/fiona-murray-degraaff-a0blhwem6l0-unspla-mwtalx96.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Invitații",
+      "intro": "Invitații tipărite pe hârtie texturată, cu plic, sigiliu de ceară sau panglică. Restul papetăriei, de la meniuri la planul de așezare, urmează același design.",
+      "rezumat": "Invitații, plicuri de bani, meniuri și plăcuțe cu nume.",
+      "de_la": "de la 9 lei / buc",
+      "desen": "invitatii",
       "modele": [
         {
           "nume": "Invitația Clasic",
           "descriere": "Carton ivoire de 350 g, tipar auriu, plic cu sigiliu de ceară.",
           "pret": "de la 14 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/diana-light-xfcu9wtxpy0-unsplash-mwt9jrwx.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -31,7 +28,7 @@
           "descriere": "Ilustrație florală pictată în acuarelă, plic de calc.",
           "pret": "de la 12 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/abigail-ybarra-dfyqp0yzqdu-unsplash-mwt9k0in.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -39,7 +36,7 @@
           "descriere": "Asortate cu invitația, cu numele mirilor pe clapă.",
           "pret": "de la 6 lei / buc",
           "minim": "minim 20 buc",
-          "foto": "",
+          "foto": "/images/uploads/alexander-mass-ypwtyzuraik-unsplash-mwt9pae0.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -47,7 +44,7 @@
           "descriere": "Pentru fiecare invitat, în designul invitației.",
           "pret": "de la 4 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/freddy-g-kuikkzvyqek-unsplash-mwt9t9ps.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -55,7 +52,7 @@
           "descriere": "Panou mare pe forex sau oglindă, cu mesele și invitații.",
           "pret": "de la 280 lei",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/elisadventure-photographe-sq-mezpkey0-un-mwt9wgot.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -63,35 +60,35 @@
           "descriere": "Copertă textilă cu inițialele mirilor.",
           "pret": "de la 190 lei",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/anthony-le-pw0-dptelyo-unsplash-mwt9yrzm.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#E8EEF4",
+      "nume": "Invitații și papetărie"
     },
     {
-      "nume": "Lumânări de cununie",
-      "scurt": "Lumânări",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Lumânări pentru biserică, decorate cu flori și panglici.",
-      "de_la": "de la 340 lei / pereche",
-      "intro": "Lumânări înalte sau scurte, decorate cu flori naturale, uscate sau de mătase, în culorile nunții. Se fac pereche, cu buchetul pentru naș și nașă.",
-      "desen": "lumanari",
-      "culoare": "#F5E6E3",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/gianna-b-jjra6s0icta-unsplash-mwt9zv3d.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Lumânări",
+      "intro": "Lumânări înalte sau scurte, decorate cu flori naturale, uscate sau de mătase, în culorile nunții. Se fac pereche, cu buchetul pentru naș și nașă.",
+      "rezumat": "Lumânări pentru biserică, decorate cu flori și panglici.",
+      "de_la": "de la 340 lei / pereche",
+      "desen": "lumanari",
       "modele": [
         {
           "nume": "Lumânări înalte cu flori naturale",
           "descriere": "Trandafiri, eustoma și verdeață, aranjate pe loc.",
           "pret": "de la 590 lei / pereche",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/pexels-natalia-s-499435271-18177400-mwtaqaez.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -99,7 +96,7 @@
           "descriere": "Se pot păstra după nuntă.",
           "pret": "de la 340 lei / pereche",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/pexels-caleboquendo-34597451-mwtas3ks.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -107,35 +104,35 @@
           "descriere": "Lavandă, bumbac și ierburi, în stil rustic.",
           "pret": "de la 420 lei / pereche",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/pexels-yelenaodintsova-10341349-mwtarw1x.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#F5E6E3",
+      "nume": "Lumânări de cununie"
     },
     {
-      "nume": "Flori și aranjamente",
-      "scurt": "Flori",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Buchet de mireasă, aranjamente de masă și decor pentru biserică.",
-      "de_la": "de la 280 lei",
-      "intro": "Buchetul miresei, buchetele domnișoarelor de onoare, aranjamentele de pe mese și decorul pentru biserică, gândite împreună.",
-      "desen": "flori",
-      "culoare": "#EEF2E8",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/cody-chan-7jgtahjkjwk-unsplash-mwta1n39.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Flori",
+      "intro": "Buchetul miresei, buchetele domnișoarelor de onoare, aranjamentele de pe mese și decorul pentru biserică, gândite împreună.",
+      "rezumat": "Buchet de mireasă, aranjamente de masă și decor pentru biserică.",
+      "de_la": "de la 280 lei",
+      "desen": "flori",
       "modele": [
         {
           "nume": "Buchet de mireasă",
           "descriere": "Rotund sau în cascadă, cu flori de sezon.",
           "pret": "de la 380 lei",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/tom-the-photographer-8ypa6zyq0-s-unsplas-mwta2dh2.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -143,7 +140,7 @@
           "descriere": "Joase, ca invitații să se vadă între ei.",
           "pret": "de la 120 lei / masă",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/bruno-ngarukiye-fjbpolw1yym-unsplash-mwta33sc.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -151,35 +148,35 @@
           "descriere": "Arcadă, capete de rând și aranjamentul pentru icoană.",
           "pret": "",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/kristina-kutlesa-ixktpb8xkh0-unsplash-mwta6v64.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#EEF2E8",
+      "nume": "Flori și aranjamente"
     },
     {
-      "nume": "Cocarde și brățări",
-      "scurt": "Cocarde",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Cocarde pentru invitați și brățări florale pentru domnișoare.",
-      "de_la": "de la 5 lei / buc",
-      "intro": "Cocarde din satin, catifea sau flori uscate, cu ac discret. Brățări florale pentru domnișoarele de onoare, în aceleași culori.",
-      "desen": "cocarde",
-      "culoare": "#F3EFE6",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/jordyn-montague-qfof3oyokiy-unsplash-mwta7u6y.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Cocarde",
+      "intro": "Cocarde din satin, catifea sau flori uscate, cu ac discret. Brățări florale pentru domnișoarele de onoare, în aceleași culori.",
+      "rezumat": "Cocarde pentru invitați și brățări florale pentru domnișoare.",
+      "de_la": "de la 5 lei / buc",
+      "desen": "cocarde",
       "modele": [
         {
           "nume": "Cocarde de satin",
           "descriere": "Panglică și floare mică, în culorile nunții.",
           "pret": "de la 5 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/shayna-douglas-k9mjrxq6hra-unsplash-mwtatknl.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -187,7 +184,7 @@
           "descriere": "Bumbac, lavandă sau gypsophila.",
           "pret": "de la 8 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/tobias-flyckt-wpcxrvyv8pk-unsplash-mwtau5b7.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -195,35 +192,35 @@
           "descriere": "Flori de mătase pe panglică de satin.",
           "pret": "de la 35 lei / buc",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/patrick-slade-xyv-uucvk-q-unsplash-mwtauf7x.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#F3EFE6",
+      "nume": "Cocarde și brățări"
     },
     {
-      "nume": "Pahare și sticle",
-      "scurt": "Pahare și sticle",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Pahare pentru miri și nași, sticle de șampanie decorate.",
-      "de_la": "de la 90 lei",
-      "intro": "Pahare de șampanie gravate sau decorate cu dantelă și cristale, plus sticle personalizate cu numele mirilor și data nunții.",
-      "desen": "pahare",
-      "culoare": "#E8EEF4",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/fray-bekele-5rqidb5riq4-unsplash-mwtaavi3.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Pahare și sticle",
+      "intro": "Pahare de șampanie gravate sau decorate cu dantelă și cristale, plus sticle personalizate cu numele mirilor și data nunții.",
+      "rezumat": "Pahare pentru miri și nași, sticle de șampanie decorate.",
+      "de_la": "de la 90 lei",
+      "desen": "pahare",
       "modele": [
         {
           "nume": "Pahare pentru miri",
           "descriere": "Gravate cu inițiale și dată, cu panglică.",
           "pret": "de la 120 lei / pereche",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/fray-bekele-5rqidb5riq4-unsplash-mwtab5ym.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -231,7 +228,7 @@
           "descriere": "Două pahare asortate cu cele ale mirilor.",
           "pret": "de la 110 lei / pereche",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/haca-wedding-film-n6rjmpun1xc-unsplash-mwtabetg.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -239,35 +236,35 @@
           "descriere": "Etichetă personalizată și decor floral.",
           "pret": "de la 90 lei / buc",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/shoham-avisrur-nrvl3qcsjms-unsplash-mwtacchm.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#E8EEF4",
+      "nume": "Pahare și sticle"
     },
     {
-      "nume": "Mărturii",
-      "scurt": "Mărturii",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Mici daruri pentru invitați, cu eticheta voastră.",
-      "de_la": "de la 6 lei / buc",
-      "intro": "Borcănele cu miere, lumânări parfumate din ceară de soia, săpunuri sau semințe de plantat, toate cu etichetă personalizată.",
-      "desen": "marturii",
-      "culoare": "#F5E6E3",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/jonathan-borba-n1xvtv3chzu-unsplash-mwtadiep.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Mărturii",
+      "intro": "Borcănele cu miere, lumânări parfumate din ceară de soia, săpunuri sau semințe de plantat, toate cu etichetă personalizată.",
+      "rezumat": "Mici daruri pentru invitați, cu eticheta voastră.",
+      "de_la": "de la 6 lei / buc",
+      "desen": "marturii",
       "modele": [
         {
           "nume": "Borcănele cu miere",
           "descriere": "Miere de salcâm, capac cu material și etichetă.",
           "pret": "de la 9 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/jonathan-borba-ka0lv4m9fk8-unsplash-mwtae3cr.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -275,7 +272,7 @@
           "descriere": "Ceară de soia, în pahar mic de sticlă.",
           "pret": "de la 12 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/jonathan-borba-qjri4ntbfuy-unsplash-mwtag2yh.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -283,35 +280,35 @@
           "descriere": "Plic de hârtie cu semințe de flori de câmp.",
           "pret": "de la 6 lei / buc",
           "minim": "minim 50 buc",
-          "foto": "",
+          "foto": "/images/uploads/vitor-monthay-jgnwlfhtuuq-unsplash-mwtagm3y.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#F5E6E3",
+      "nume": "Mărturii"
     },
     {
-      "nume": "Cutii de dar și decor",
-      "scurt": "Decor",
       "activa": true,
-      "afiseaza_pret": true,
-      "rezumat": "Cutie pentru dar, panou de bun venit și numere de masă.",
-      "de_la": "de la 25 lei",
-      "intro": "Piesele care leagă decorul: cutia pentru dar, panoul de bun venit, numerele de masă și semnele pentru fotografii.",
-      "desen": "decor",
-      "culoare": "#EEF2E8",
-      "foto": "",
-      "foto_pozitie": "centru",
       "personalizare": [
         "numele mirilor și data nunții",
         "culorile, panglica și florile",
         "textul, fontul și ambalajul"
       ],
+      "foto": "/images/uploads/jennifer-kalenberg-79sa7rr3sfo-unsplash-mwtaiyep.jpg",
+      "foto_pozitie": "centru",
+      "scurt": "Decor",
+      "intro": "Piesele care leagă decorul: cutia pentru dar, panoul de bun venit, numerele de masă și semnele pentru fotografii.",
+      "rezumat": "Cutie pentru dar, panou de bun venit și numere de masă.",
+      "de_la": "de la 25 lei",
+      "desen": "decor",
       "modele": [
         {
           "nume": "Cutie pentru dar",
           "descriere": "Cu fantă, inițiale și decor floral.",
           "pret": "de la 180 lei",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/jennifer-kalenberg-79sa7rr3sfo-unsplash-mwtaiyep.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -319,7 +316,7 @@
           "descriere": "Pe forex, lemn sau oglindă, cu numele mirilor.",
           "pret": "de la 220 lei",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/muhammad-qayyum-abdul-rahman-8jo0tnhacxu-mwtakemi.jpg",
           "foto_pozitie": "centru"
         },
         {
@@ -327,10 +324,13 @@
           "descriere": "În designul invitației, pe suport de lemn.",
           "pret": "de la 25 lei / buc",
           "minim": "",
-          "foto": "",
+          "foto": "/images/uploads/wedding-photography-cqbbxf1rls0-unsplash-mwtalbcn.jpg",
           "foto_pozitie": "centru"
         }
-      ]
+      ],
+      "afiseaza_pret": true,
+      "culoare": "#EEF2E8",
+      "nume": "Cutii de dar și decor"
     }
   ]
 }
