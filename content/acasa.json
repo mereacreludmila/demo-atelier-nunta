@@ -33,7 +33,40 @@
       "text": "Ridicați din atelier sau trimitem prin curier, ambalat cu grijă."
     }
   ],
-  "galerie": [],
+  "galerie": [
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/alexander-mass-8kpkyjfdxso-unsplash-mwtbmm73.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/gilberto-peralta-bocio-u66gjn8prie-unspl-mwtbmulz.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/alexander-mass-yfvrd-lvnvq-unsplash-mwtbn1ii.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/evelina-friman-hw-skmjb0ns-unsplash-mwtbnbuz.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/andrea-arana-gf0s8ztwsxq-unsplash-mwtbnnih.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/nathan-dumlao-jhxzzx5d-lg-unsplash-mwtbnvz8.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/oyemike-princewill-bchr-kkwldq-unsplash-mwtbo36s.jpg"
+    },
+    {
+      "pozitie": "centru",
+      "imagine": "/images/uploads/martin-baron-bjrbqpeshty-unsplash-mwtbo8s9.jpg"
+    }
+  ],
   "recenzie": {
     "arata": true,
     "semnatura": "Mulțumim!",
