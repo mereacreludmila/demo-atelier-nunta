@@ -1,0 +1,41 @@
+{
+  "_despre": "Profilurile din butonul „Configurează demo-ul”. Apare doar dacă în setări e pornit „panou_demo”.",
+  "profiluri": [
+    {
+      "nume": "Atelier complet",
+      "categorii": [
+        "Invitații și papetărie",
+        "Lumânări de cununie",
+        "Flori și aranjamente",
+        "Cocarde și brățări",
+        "Pahare și sticle",
+        "Mărturii",
+        "Cutii de dar și decor"
+      ]
+    },
+    {
+      "nume": "Doar papetărie",
+      "categorii": [
+        "Invitații și papetărie",
+        "Cutii de dar și decor"
+      ]
+    },
+    {
+      "nume": "Flori și lumânări",
+      "categorii": [
+        "Flori și aranjamente",
+        "Lumânări de cununie",
+        "Cocarde și brățări"
+      ]
+    },
+    {
+      "nume": "Accesorii mici",
+      "categorii": [
+        "Cocarde și brățări",
+        "Pahare și sticle",
+        "Mărturii",
+        "Cutii de dar și decor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "text": "Aceleași culori, aceeași hârtie și aceleași flori, de la invitație până la mărturii. Alegeți o colecție și o adaptăm nunții voastre.",
+  "lista": [
+    {
+      "nume": "Clasic alb și auriu",
+      "text": "Hârtie ivoire, tipar auriu și trandafiri albi. Elegant, potrivit oricărei biserici și oricărui salon.",
+      "culori": [
+        "#FFFDF7",
+        "#E9DCC2",
+        "#B9975B",
+        "#1F2A44"
+      ],
+      "fundal": "#F3EFE6",
+      "foto": "",
+      "foto_pozitie": "centru",
+      "piese": [
+        {
+          "categorie": "Invitații și papetărie",
+          "text": "Invitație cu tipar auriu și sigiliu"
+        },
+        {
+          "categorie": "Lumânări de cununie",
+          "text": "Lumânări înalte cu trandafiri albi"
+        },
+        {
+          "categorie": "Flori și aranjamente",
+          "text": "Buchet de trandafiri și eustoma"
+        },
+        {
+          "categorie": "Cocarde și brățări",
+          "text": "Cocarde de satin ivoire"
+        },
+        {
+          "categorie": "Pahare și sticle",
+          "text": "Pahare gravate cu auriu"
+        },
+        {
+          "categorie": "Mărturii",
+          "text": "Lumânări parfumate în pahar"
+        },
+        {
+          "categorie": "Cutii de dar și decor",
+          "text": "Panou de bun venit pe oglindă"
+        }
+      ]
+    },
+    {
+      "nume": "Grădină englezească",
+      "text": "Verde salvie, roz pudrat și flori de grădină. Pentru nunți în aer liber sau într-un salon luminos.",
+      "culori": [
+        "#F5E6E3",
+        "#C9D3BE",
+        "#8A9A7B",
+        "#7A1F3D"
+      ],
+      "fundal": "#EEF2E8",
+      "foto": "",
+      "foto_pozitie": "centru",
+      "piese": [
+        {
+          "categorie": "Invitații și papetărie",
+          "text": "Invitație cu flori în acuarelă"
+        },
+        {
+          "categorie": "Lumânări de cununie",
+          "text": "Lumânări cu bujori și verdeață"
+        },
+        {
+          "categorie": "Flori și aranjamente",
+          "text": "Buchet liber, de grădină"
+        },
+        {
+          "categorie": "Cocarde și brățări",
+          "text": "Cocarde cu frunză de eucalipt"
+        },
+        {
+          "categorie": "Pahare și sticle",
+          "text": "Pahare cu dantelă"
+        },
+        {
+          "categorie": "Mărturii",
+          "text": "Borcănele cu miere"
+        },
+        {
+          "categorie": "Cutii de dar și decor",
+          "text": "Numere de masă pe lemn"
+        }
+      ]
+    },
+    {
+      "nume": "Câmp de levănțică",
+      "text": "Lila, alb și flori uscate. Rustic și parfumat, pentru nunți la conac sau la munte.",
+      "culori": [
+        "#E6E0F0",
+        "#B9A3D6",
+        "#7E6AA6",
+        "#5C6477"
+      ],
+      "fundal": "#EEEAF5",
+      "foto": "",
+      "foto_pozitie": "centru",
+      "piese": [
+        {
+          "categorie": "Invitații și papetărie",
+          "text": "Invitație pe hârtie reciclată"
+        },
+        {
+          "categorie": "Lumânări de cununie",
+          "text": "Lumânări cu lavandă uscată"
+        },
+        {
+          "categorie": "Flori și aranjamente",
+          "text": "Buchet cu lavandă și bumbac"
+        },
+        {
+          "categorie": "Cocarde și brățări",
+          "text": "Cocarde cu lavandă"
+        },
+        {
+          "categorie": "Pahare și sticle",
+          "text": "Pahare cu panglică lila"
+        },
+        {
+          "categorie": "Mărturii",
+          "text": "Săculeți cu lavandă"
+        },
+        {
+          "categorie": "Cutii de dar și decor",
+          "text": "Cutie pentru dar din lemn"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+# Panoul de editare al atelierului. Aici decidem exact ce poate modifica atelierul.
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+site_url: "/"
+display_url: "/"
+
+collections:
+  - name: "atelier"
+    label: "Atelier"
+    editor: { preview: false }
+    files:
+      - name: "categorii"
+        label: "Categorii și modele"
+        file: "content/categorii.json"
+        fields:
+          - label: "Categorii"
+            name: "lista"
+            widget: "list"
+            label_singular: "categorie"
+            summary: "{{fields.nume}}"
+            hint: "Fiecare categorie activă are pagina ei și apare în meniu. Oprește „Categoria e activă” pentru produsele pe care atelierul nu le face."
+            fields:
+              - { label: "Categoria e activă", name: "activa", widget: "boolean", default: true, required: false }
+              - { label: "Afișează prețurile", name: "afiseaza_pret", widget: "boolean", default: true, required: false, hint: "Oprit: la categorie și la toate modelele ei apare „Preț la cerere”." }
+              - { label: "Nume", name: "nume", widget: "string" }
+              - { label: "Nume scurt (în meniu)", name: "scurt", widget: "string", required: false }
+              - { label: "Text scurt (pe prima pagină)", name: "rezumat", widget: "string" }
+              - { label: "Preț pornire (pe prima pagină)", name: "de_la", widget: "string", required: false, hint: "Exemplu: de la 9 lei / buc" }
+              - { label: "Text de prezentare (pe pagina categoriei)", name: "intro", widget: "text" }
+              - { label: "Fotografie", name: "foto", widget: "image", required: false }
+              - { label: "Încadrarea fotografiei", name: "foto_pozitie", widget: "select", default: "centru", required: false, options: [{ label: "Sus", value: "sus" }, { label: "Centru", value: "centru" }, { label: "Jos", value: "jos" }, { label: "Stânga", value: "stanga" }, { label: "Dreapta", value: "dreapta" }], hint: "Ce parte a pozei rămâne vizibilă dacă poza e decupată." }
+              - { label: "Culoare de fundal", name: "culoare", widget: "color", default: "#E8EEF4" }
+              - { label: "Desen (când nu e poză)", name: "desen", widget: "select", default: "flori", options: [{ label: "Plic", value: "invitatii" }, { label: "Lumânări", value: "lumanari" }, { label: "Flori", value: "flori" }, { label: "Cocardă", value: "cocarde" }, { label: "Pahare", value: "pahare" }, { label: "Cutie cadou", value: "marturii" }, { label: "Panou", value: "decor" }] }
+              - label: "Modele"
+                name: "modele"
+                widget: "list"
+                label_singular: "model"
+                required: false
+                summary: "{{fields.nume}}"
+                fields:
+                  - { label: "Nume", name: "nume", widget: "string" }
+                  - { label: "Descriere", name: "descriere", widget: "string", required: false }
+                  - { label: "Preț", name: "pret", widget: "string", required: false, hint: "Exemplu: de la 14 lei / buc. Gol = „Preț la cerere”." }
+                  - { label: "Cantitate minimă", name: "minim", widget: "string", required: false, hint: "Exemplu: minim 50 buc" }
+                  - { label: "Fotografie", name: "foto", widget: "image", required: false }
+                  - { label: "Încadrarea fotografiei", name: "foto_pozitie", widget: "select", default: "centru", required: false, options: [{ label: "Sus", value: "sus" }, { label: "Centru", value: "centru" }, { label: "Jos", value: "jos" }, { label: "Stânga", value: "stanga" }, { label: "Dreapta", value: "dreapta" }], hint: "Ce parte a pozei rămâne vizibilă dacă poza e decupată." }
+              - label: "Ce se personalizează"
+                name: "personalizare"
+                widget: "list"
+                required: false
+                field: { label: "Rând", name: "rand", widget: "string" }
+
+      - name: "colectii"
+        label: "Colecții coordonate"
+        file: "content/colectii.json"
+        fields:
+          - { label: "Text sub titlu", name: "text", widget: "text" }
+          - label: "Colecții"
+            name: "lista"
+            widget: "list"
+            label_singular: "colecție"
+            summary: "{{fields.nume}}"
+            fields:
+              - { label: "Nume", name: "nume", widget: "string" }
+              - { label: "Descriere", name: "text", widget: "text" }
+              - label: "Culori (bulinele)"
+                name: "culori"
+                widget: "list"
+                required: false
+                field: { label: "Culoare", name: "culoare", widget: "color" }
+              - { label: "Fotografie", name: "foto", widget: "image", required: false }
+              - { label: "Încadrarea fotografiei", name: "foto_pozitie", widget: "select", default: "centru", required: false, options: [{ label: "Sus", value: "sus" }, { label: "Centru", value: "centru" }, { label: "Jos", value: "jos" }, { label: "Stânga", value: "stanga" }, { label: "Dreapta", value: "dreapta" }], hint: "Ce parte a pozei rămâne vizibilă dacă poza e decupată." }
+              - { label: "Culoare de fundal (când nu e poză)", name: "fundal", widget: "color", default: "#F3EFE6" }
+              - label: "Piese din colecție"
+                name: "piese"
+                widget: "list"
+                required: false
+                summary: "{{fields.text}}"
+                hint: "Fiecare piesă ține de o categorie. Dacă acea categorie e oprită, piesa nu apare."
+                fields:
+                  - { label: "Categoria", name: "categorie", widget: "relation", collection: "atelier", file: "categorii", search_fields: ["lista.*.nume"], value_field: "lista.*.nume", display_fields: ["lista.*.nume"] }
+                  - { label: "Text", name: "text", widget: "string" }
+
+  - name: "site"
+    label: "Site"
+    editor: { preview: false }
+    files:
+      - name: "acasa"
+        label: "Prima pagină"
+        file: "content/acasa.json"
+        fields:
+          - { label: "Titlu mare", name: "titlu", widget: "string" }
+          - { label: "Text sub titlu", name: "text", widget: "text", required: false, hint: "Gol = se scrie automat din categoriile active." }
+          - { label: "Notă sub butoane", name: "nota", widget: "string", required: false }
+          - { label: "Fotografie principală", name: "foto", widget: "image", required: false }
+          - { label: "Încadrarea fotografiei", name: "foto_pozitie", widget: "select", default: "centru", required: false, options: [{ label: "Sus", value: "sus" }, { label: "Centru", value: "centru" }, { label: "Jos", value: "jos" }, { label: "Stânga", value: "stanga" }, { label: "Dreapta", value: "dreapta" }], hint: "Ce parte a pozei rămâne vizibilă dacă poza e decupată." }
+          - label: "Invitația desenată de sus"
+            name: "invitatie"
+            widget: "object"
+            hint: "Apare doar dacă e activă categoria cu invitații."
+            fields:
+              - { label: "Arată invitația", name: "arata", widget: "boolean", default: true, required: false }
+              - { label: "Rândul de sus", name: "sus", widget: "string" }
+              - { label: "Numele mirilor", name: "nume", widget: "string" }
+              - { label: "Rândul din mijloc", name: "mijloc", widget: "string" }
+              - { label: "Data", name: "data", widget: "string" }
+              - { label: "Locul și ora", name: "loc", widget: "text" }
+          - { label: "„Ce facem”: titlu", name: "ce_facem_titlu", widget: "string" }
+          - { label: "„Ce facem”: text", name: "ce_facem_text", widget: "text" }
+          - { label: "„Cum lucrăm”: text", name: "pasi_text", widget: "string" }
+          - label: "Pașii de lucru"
+            name: "pasi"
+            widget: "list"
+            summary: "{{fields.titlu}}"
+            fields:
+              - { label: "Titlu", name: "titlu", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Galerie „Din nunțile noastre”"
+            name: "galerie"
+            widget: "list"
+            required: false
+            summary: "Fotografie"
+            fields:
+              - { label: "Fotografie", name: "imagine", widget: "image", required: false }
+              - { label: "Încadrarea fotografiei", name: "pozitie", widget: "select", default: "centru", required: false, options: [{ label: "Sus", value: "sus" }, { label: "Centru", value: "centru" }, { label: "Jos", value: "jos" }, { label: "Stânga", value: "stanga" }, { label: "Dreapta", value: "dreapta" }], hint: "Ce parte a pozei rămâne vizibilă dacă poza e decupată." }
+          - label: "Recenzie"
+            name: "recenzie"
+            widget: "object"
+            fields:
+              - { label: "Arată recenzia", name: "arata", widget: "boolean", default: true, required: false }
+              - { label: "Cuvânt scris de mână", name: "semnatura", widget: "string", required: false }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Autor", name: "autor", widget: "string" }
+          - { label: "Cerere de ofertă: text", name: "oferta_text", widget: "text" }
+          - label: "Întrebări frecvente"
+            name: "intrebari"
+            widget: "list"
+            required: false
+            summary: "{{fields.intrebare}}"
+            fields:
+              - { label: "Întrebare", name: "intrebare", widget: "string" }
+              - { label: "Răspuns", name: "raspuns", widget: "text" }
+
+      - name: "setari"
+        label: "Contact și setări"
+        file: "content/setari.json"
+        fields:
+          - { label: "Numele atelierului", name: "nume", widget: "string" }
+          - { label: "Slogan (sub nume)", name: "slogan", widget: "string" }
+          - { label: "Litera de pe sigiliu", name: "monograma", widget: "string", required: false }
+          - { label: "Descriere (pentru Google)", name: "descriere", widget: "text" }
+          - { label: "Text în subsol", name: "despre_scurt", widget: "text" }
+          - { label: "Telefon (cum se afișează)", name: "telefon", widget: "string" }
+          - { label: "Telefon pentru apel", name: "telefon_link", widget: "string", hint: "Cu prefixul țării, fără spații. Exemplu: +40700000000" }
+          - { label: "Email", name: "email", widget: "string" }
+          - label: "Adresa"
+            name: "adresa"
+            widget: "list"
+            field: { label: "Rând", name: "rand", widget: "string" }
+          - { label: "Număr WhatsApp", name: "whatsapp", widget: "string", hint: "Doar cifre, cu prefixul țării. Exemplu: 40700000000" }
+          - { label: "Metoda de primire a cererilor", name: "oferta_metoda", widget: "hidden" }
+          - { label: "Adresa serviciului de formulare", name: "oferta_endpoint", widget: "hidden" }
+          - { label: "Arată nota „site demonstrativ”", name: "demo", widget: "boolean", required: false }
+          - { label: "Arată butonul „Configurează demo-ul”", name: "panou_demo", widget: "boolean", required: false, hint: "Doar pentru prezentări. Pe site-ul unui client real trebuie oprit." }

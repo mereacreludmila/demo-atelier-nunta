@@ -1,0 +1,19 @@
+{
+  "nume": "Atelier Amalia",
+  "slogan": "accesorii de nuntă făcute de mână",
+  "monograma": "A",
+  "descriere": "Invitații, lumânări de cununie, flori, cocarde, pahare și mărturii, gândite în aceeași poveste.",
+  "despre_scurt": "Atelier din Orașul Tău. Lucrăm doar cu programare și livrăm în toată țara.",
+  "telefon": "0700 000 000",
+  "telefon_link": "+40700000000",
+  "email": "salut@exemplu.ro",
+  "adresa": [
+    "Str. Exemplului nr. 5, Orașul Tău",
+    "Doar cu programare"
+  ],
+  "whatsapp": "40700000000",
+  "oferta_metoda": "netlify",
+  "oferta_endpoint": "",
+  "demo": true,
+  "panou_demo": true
+}

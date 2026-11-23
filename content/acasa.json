@@ -1,0 +1,62 @@
+{
+  "titlu": "Detaliile nunții voastre, în aceeași poveste.",
+  "text": "",
+  "nota": "Primești o mostră înainte de comanda finală.",
+  "foto": "",
+  "foto_pozitie": "centru",
+  "invitatie": {
+    "arata": true,
+    "sus": "Împreună cu părinții și nașii",
+    "nume": "Ioana & Andrei",
+    "mijloc": "vă invită să fiți alături de ei la cununia religioasă",
+    "data": "12 septembrie 2027",
+    "loc": "Biserica Sfântul Nicolae\nora 16:00"
+  },
+  "ce_facem_titlu": "Ce facem pentru nunta voastră",
+  "ce_facem_text": "Lucrăm fiecare piesă de mână, în culorile și stilul nunții voastre. Le poți comanda separat sau ca set coordonat.",
+  "pasi_text": "De la prima discuție până în ziua nunții, știți mereu în ce etapă suntem.",
+  "pasi": [
+    {
+      "titlu": "Discuția",
+      "text": "Ne spuneți data, numărul de invitați, culorile și ce vă doriți. Vă trimitem o ofertă în 24 de ore."
+    },
+    {
+      "titlu": "Mostra",
+      "text": "Pregătim o mostră din fiecare produs și o ajustăm până vă place."
+    },
+    {
+      "titlu": "Lucrul",
+      "text": "Realizăm comanda cu 3–6 săptămâni înainte de nuntă, în funcție de cantitate."
+    },
+    {
+      "titlu": "Livrarea",
+      "text": "Ridicați din atelier sau trimitem prin curier, ambalat cu grijă."
+    }
+  ],
+  "galerie": [],
+  "recenzie": {
+    "arata": true,
+    "semnatura": "Mulțumim!",
+    "text": "Toți invitații ne-au întrebat cine ne-a făcut invitațiile și mărturiile. Totul s-a potrivit, până la panglică.",
+    "autor": "Ioana și Andrei, nuntă în septembrie"
+  },
+  "oferta_text": "Spuneți-ne câteva detalii despre nuntă și ce vă interesează. Vă răspundem în cel mult 24 de ore, cu prețuri și idei.",
+  "intrebari": [
+    {
+      "intrebare": "Cu cât timp înainte de nuntă trebuie să comandăm?",
+      "raspuns": "Ideal cu 2–3 luni înainte. Pentru comenzi mici ne putem încadra și în 3–4 săptămâni, în funcție de calendar."
+    },
+    {
+      "intrebare": "Putem comanda doar un singur produs?",
+      "raspuns": "Sigur. Puteți comanda separat orice produs sau un set coordonat, cu un preț mai bun."
+    },
+    {
+      "intrebare": "Primim o mostră înainte?",
+      "raspuns": "Da. Pregătim o mostră din fiecare produs, iar comanda finală pornește doar după ce o aprobați."
+    },
+    {
+      "intrebare": "Cum se face plata?",
+      "raspuns": "Un avans de 30% la confirmarea comenzii și restul la livrare, prin transfer bancar sau numerar."
+    }
+  ]
+}
