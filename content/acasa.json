@@ -2,10 +2,10 @@
   "titlu": "Detaliile nunții voastre, în aceeași poveste.",
   "text": "",
   "nota": "Primești o mostră înainte de comanda finală.",
-  "foto": "/images/uploads/fiona-murray-degraaff-a0blhwem6l0-unspla-mwtalx96.jpg",
+  "foto": "",
   "foto_pozitie": "centru",
   "invitatie": {
-    "arata": true,
+    "arata": false,
     "sus": "Împreună cu părinții și nașii",
     "nume": "Ioana & Andrei",
     "mijloc": "vă invită să fiți alături de ei la cununia religioasă",
